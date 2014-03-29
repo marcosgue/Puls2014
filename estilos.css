@@ -315,7 +315,10 @@ FORMULARIO
 {
 	padding: 1em;
 	text-align: right;
+<<<<<<< HEAD
 	display: none;
+=======
+>>>>>>> de9e8cd7c835918e4a214c57e6b1b9daf33f3225
 }
 
 .formulario input
