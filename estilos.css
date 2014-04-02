@@ -9,9 +9,7 @@
     font-style: normal;
 
 }*/
-
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-
 
 @font-face {
 	font-family: 'puls4';
@@ -193,13 +191,11 @@ nav ul #publicar_nav a:hover{
 	box-shadow: 0 0 30px yellow;
 }
 
-nav ul #publicar_nav a.disabled
-{
+nav ul #publicar_nav a.disabled {
 	background-color: grey;
-	box-shadow: none;
 	cursor: default;
+	box-shadow: none;
 }
-
 #contenido
 {
 	margin: 1em; 
@@ -289,6 +285,30 @@ nav ul #publicar_nav a.disabled
 }
 
 
+/**
+ * Formularios
+ */
+.formulario{
+	text-align: right;
+	padding: 1em;
+	display: none;
+}
+.formulario input{
+	border-radius: 5px;
+	padding: 0.2em 0.6em;
+}
+.formulario input[type="text"],
+.formulario input[type="url"]{
+	border: 1px solid #888;
+}
+.formulario input[type="submit"]{
+	background: #22BCE0;
+	border: 1px solid #22BCE0;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	font-style: italic;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+	color: white;
+}
 
 @media screen and (min-width: 800px){
 
@@ -324,27 +344,5 @@ nav ul #publicar_nav a.disabled
 }
 
 
-/**
- * FORMULARIO
- */
 
-.formulario{
-	padding: 1em;
-	text-align: right;
-	display: none;
-}
 
-.formulario input{
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	padding: 0.2em 0.6em;
-}
-
-.formulario input[type="submit"]{
-	background: #22BCE0;
-	border-color: #22BCE0;
-	box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 20px;
-	font-style: italic;
-	text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px;
-	color: white;
-}
