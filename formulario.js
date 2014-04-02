@@ -25,6 +25,7 @@ function agregarPost(){
 	$list.prepend($clone);
 
 	$clone.fadeIn();
+
 	return false;
 }
 
